@@ -1,0 +1,217 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/letsjerk-downloader",
+  "serply_link": "https://serp.ly/letsjerk-downloader",
+  "app_name": "Letsjerk Video Downloader",
+  "short_description": "Download & Save Letsjerk Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Letsjerk Downloader is a browser extension designed specifically for LetsJerk's.tv domain, where long article-style episode slugs and embedded iframe players create a unique page flow. Instead of generic downloader copy that ignores the site's actual structure, this extension is built around the way LetsJerk actually presents its content — with title-like root slugs and an iframe handoff that may reveal m3u8 playlists or direct mp4 files.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/letsjerk-downloader-fullscreen-01-f08a8766ee.webp",
+    "https://apps.serp.co/media/optimized-products/letsjerk-downloader-fullscreen-02-084ef70e17.webp",
+    "https://apps.serp.co/media/optimized-products/letsjerk-downloader-fullscreen-03-1d766fe377.webp",
+    "https://apps.serp.co/media/optimized-products/letsjerk-downloader-fullscreen-04-0b9f69c6dc.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does this extension work on all LetsJerk pages?",
+      "answer": "It is designed for LetsJerk.tv pages that use long article-style slugs and embedded iframe players. The target is verified and marked ready, but some page variations may not be supported yet."
+    },
+    {
+      "question": "What media formats can the extension detect?",
+      "answer": "The extension looks for m3u8 playlists and direct mp4 file references. These are the formats most commonly used on LetsJerk pages after the iframe handoff completes."
+    },
+    {
+      "question": "Is this extension affiliated with LetsJerk?",
+      "answer": "No. This is an independent tool created to help users download content they have permission to save. It is not officially associated with LetsJerk."
+    },
+    {
+      "question": "Can I use this extension on other websites?",
+      "answer": "No. This extension is specifically built for the LetsJerk.tv domain and its unique page structure. It will not work on other sites."
+    },
+    {
+      "question": "Why does the extension sometimes show no sources?",
+      "answer": "The iframe handoff may not have completed, or the page may be using a delivery method not currently supported. Try refreshing and waiting for the player to fully initialize."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Anyone who wants to archive LetsJerk content they have permission to save"
+    },
+    {
+      "name": "",
+      "description": "No. This is an independent tool created to help users download content they have permission to save. It is not officially associated with LetsJerk."
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Built specifically for the LetsJerk.tv brand and page structure",
+    "Recognizes long article-style episode slugs at the site root",
+    "Respects the iframe handoff flow before checking for media",
+    "Focuses on m3u8 and mp4 source detection",
+    "Verified target support with cautious, honest messaging",
+    "LetsJerk-specific page recognition for.tv domain and episode-style slugs",
+    "Iframe handoff awareness that waits for embedded players to settle",
+    "Detection of m3u8 playlists and direct mp4 file references",
+    "Quality selection when multiple stream variants are available",
+    "Clean popup interface for initiating downloads",
+    "In-page player button for quick access during playback",
+    "Privacy-focused local saving with no cloud storage",
+    "Regular updates aligned with LetsJerk page structure changes"
+  ],
+  "content": {
+    "why": [
+      "Most video downloaders treat every adult site the same way, using generic watch-page language that ignores the actual page structure. LetsJerk uses a distinctive.tv domain with long article-style slugs that carry series names and episode numbers directly in the URL path. The page flow also relies on an iframe handoff before any media reference becomes visible. Generic tools often miss these details, leading to failed detection or confusing results.",
+      "Letsjerk Downloader is built around this specific page pattern. It recognizes the.tv brand and the long episode-style slugs that identify the content. It waits for the iframe handoff to complete before checking for media sources. And it stays focused on the formats LetsJerk actually uses — m3u8 playlists and direct mp4 files. This means fewer false starts and a workflow that matches how the site actually works."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open LetsJerk and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open your browser and navigate to a LetsJerk.tv page that has a long article-style slug in the address bar, such as one containing series and episode names.",
+      "Wait for the page to fully load, including any embedded iframe player that may appear.",
+      "Start the video playing so the player initializes and media references become available.",
+      "Look for the extension icon in your browser toolbar and click it to open the popup.",
+      "The popup will show detected media sources if the page contains m3u8 playlists or mp4 files.",
+      "Select the quality or format option you want from the available sources.",
+      "Click the download button and wait for the conversion and save process to complete.",
+      "Choose a save location on your device and confirm the download."
+    ],
+    "supported_formats": [
+      "Input: m3u8 playlists and direct mp4 file references surfaced after the iframe handoff completes on LetsJerk.tv pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Visitors to LetsJerk.tv who want to save episodes for offline viewing",
+      "Users who prefer site-specific download tools over generic video grabbers",
+      "People who encounter long article-style episode slugs and want a tool that recognizes them",
+      "Anyone who wants to archive LetsJerk content they have permission to save"
+    ],
+    "use_cases": [
+      "Downloading a full series episode from a LetsJerk.tv article page",
+      "Saving a scene that uses a long title-style slug in the URL",
+      "Archiving content that streams through an embedded iframe player",
+      "Building a local collection of LetsJerk videos for offline access",
+      "Capturing content that may be removed or rotated from the site"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any media on a LetsJerk page Make sure the page has fully loaded and the iframe player has finished initializing. Try starting playback first, then open the popup again.",
+      "The download starts but fails partway through Check your internet connection and make sure you have enough free storage space on your device. Some larger files may require a stable connection.",
+      "The popup shows no sources even after playback starts The page may be using a media format or delivery method not currently supported. Try refreshing the page and waiting for the iframe to fully load before opening the popup.",
+      "The extension icon is grayed out on LetsJerk pages The extension may need to be updated to the latest version. Check the releases page for any available updates.",
+      "Downloads complete but the file will not play Ensure your media player supports the MP4 format. Some players may need additional codecs for certain encoding profiles."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported LetsJerk page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "LetsJerk page structure may change over time, which can affect detection",
+      "The extension is a verified target candidate with cautious readiness messaging — some page flows may still require updates"
+    ],
+    "about": [
+      "LetsJerk is a.tv domain that hosts adult content organized through long article-style episode pages with embedded iframe players. The site uses descriptive title slugs that include series names and episode numbers directly in the URL path, creating a distinctive page structure that benefits from a download tool built around its specific flow."
+    ]
+  },
+  "serpx_link": "https://serpx.link/letsjerk-downloader",
+  "github_topics": [
+    "letsjerk-download",
+    "letsjerk-downloader",
+    "letsjerk-video-downloader",
+    "letsjerk-video-downloader-online",
+    "letsjerk-video-downloader-mac",
+    "letsjerk-video-downloader-window",
+    "letsjerk-video-downloader-free",
+    "letsjerk-video-downloader-extension",
+    "letsjerk-video-downloader-app",
+    "letsjerk-video-downloader-chrome",
+    "letsjerk-video-downloader-from-url",
+    "how-to-download-letsjerk-videos",
+    "how-to-download-letsjerk-videos-mac",
+    "how-to-download-letsjerk-videos-windows",
+    "how-to-download-letsjerk-videos-online",
+    "how-to-download-letsjerk-videos-free",
+    "how-to-download-from-letsjerk",
+    "how-to-download-videos-from-letsjerk",
+    "download-letsjerk-videos",
+    "letsjerk-video-tutorial",
+    "save-letsjerk-videos",
+    "letsjerk-video-content-saver",
+    "how-to-download-letsjerk-videos-for-free"
+  ],
+  "hashtags": [
+    "#LetsjerkDownload",
+    "#LetsjerkDownloader",
+    "#LetsjerkVideoDownloader",
+    "#LetsjerkVideoDownloaderOnline",
+    "#LetsjerkVideoDownloaderMac",
+    "#LetsjerkVideoDownloaderWindow",
+    "#LetsjerkVideoDownloaderFree",
+    "#LetsjerkVideoDownloaderExtension",
+    "#LetsjerkVideoDownloaderApp",
+    "#LetsjerkVideoDownloaderChrome",
+    "#LetsjerkVideoDownloaderFromURL",
+    "#HowToDownloadLetsjerkVideos",
+    "#HowToDownloadLetsjerkVideosMac",
+    "#HowToDownloadLetsjerkVideosWindows",
+    "#HowToDownloadLetsjerkVideosOnline",
+    "#HowToDownloadLetsjerkVideosFree",
+    "#HowToDownloadFromLetsjerk",
+    "#HowToDownloadVideosFromLetsjerk",
+    "#DownloadLetsjerkVideos",
+    "#LetsjerkVideoTutorial",
+    "#SaveLetsjerkVideos",
+    "#LetsjerkVideoContentSaver",
+    "#HowToDownloadLetsjerkVideosForFree"
+  ],
+  "youtube_tags": [
+    "Letsjerk Download",
+    "Letsjerk Downloader",
+    "Letsjerk Video Downloader",
+    "Letsjerk Video Downloader Online",
+    "Letsjerk Video Downloader Mac",
+    "Letsjerk Video Downloader Window",
+    "Letsjerk Video Downloader Free",
+    "Letsjerk Video Downloader Extension",
+    "Letsjerk Video Downloader App",
+    "Letsjerk Video Downloader Chrome",
+    "Letsjerk Video Downloader From URL",
+    "How To Download Letsjerk Videos",
+    "How To Download Letsjerk Videos Mac",
+    "How To Download Letsjerk Videos Windows",
+    "How To Download Letsjerk Videos Online",
+    "How To Download Letsjerk Videos Free",
+    "How To Download From Letsjerk",
+    "How To Download Videos From Letsjerk",
+    "Download Letsjerk Videos",
+    "Letsjerk Video Tutorial",
+    "Save Letsjerk Videos",
+    "Letsjerk Video Content Saver",
+    "How To Download Letsjerk Videos For Free"
+  ]
+}
